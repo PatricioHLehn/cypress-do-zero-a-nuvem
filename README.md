@@ -1,28 +1,28 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+# Cypress, do zero à nuvem
 
-👋 Seja bem-vindo(a)!
+Curso para aprender sobre instalação, comandos básicos e avançados, documentação e gerenciamento de testes automatizados com Cypress
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+## Pré requisitos
 
-## O que você vai aprender?
+Conhecimentos básicos em: 
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+JavaScript
+Seletores CSS
+Linha de comando
+Git
 
-## Vamos começar?
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Programas e versões:
 
-___
+[Git](https://git-scm.com/): Versão 2.42.1 ou superior
+[Node.js](https://nodejs.org/en/): Versão V20.13.1 ou superior
+npm: Versão 10.8.1 ou superior
+[Visual Studio Code](https://code.visualstudio.com/): v1.90.2 ou superior
 
-Este é um curso da **Escola Talking About Testing**.
+Links para download ao clicar no nome de cada item
+
+## Testes
+
+Os testes estão dispostos dentro do arquivo CAC-TAT.cs.js e privacyPolicy.cy.js, de acordo com a finalidade do teste.
+Os testes exploram comandos comuns do cypress, lidando com labels, edits, checkbox, radio, buttons, links que abrem em outro navegador, etc.
+
