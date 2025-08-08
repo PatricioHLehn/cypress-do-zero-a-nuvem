@@ -1,0 +1,8 @@
+   //Lição 7 - Exercício extra 2 - Desafio
+
+   it.only('testa a página da política de privacidade de forma independente', () =>{
+     cy.visit('./src/privacy.html').title().should('be.equal', 'Central de Atendimento ao Cliente TAT - Política de Privacidade')
+     
+     cy.contains('h1', 'CAC TAT - Política de Privacidade').should('be.visible')
+     cy.contains('p', 'Talking About Testing').should('be.visible')
+   })
